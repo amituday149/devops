@@ -1,0 +1,7 @@
+how to change the timezone
+====================================
+ls -l /etc/local
+timedatectl -list |grep Asia
+timedatectl set-timezone Asia/Kolkata
+
+
